@@ -42,11 +42,16 @@ body{
 }
 
 .search-container input{
-    border: solid;
-    color: white;
+    background-color: transparent;
+    border-color: transparent;
+    color: #fff;
     padding: 0.5em;
     padding-right: 9em;
     margin-left: 20px;
+}
+
+.search-container input:focus{
+    border-color: #fff;
 }
 
 .search-container button{
